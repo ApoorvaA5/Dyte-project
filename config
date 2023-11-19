@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "dyte"]
+	url = https://github.com/ApoorvaA5/Dyte
+	fetch = +refs/heads/*:refs/remotes/dyte/*
+[branch "main"]
+	remote = dyte
+	merge = refs/heads/main
+[remote "apoorvaa5"]
+	url = apoorvaa5
+	fetch = +refs/heads/*:refs/remotes/apoorvaa5/*
+[remote "dyte-project"]
+	url = https://github.com/ApoorvaA5/Dyte-project
+	fetch = +refs/heads/*:refs/remotes/dyte-project/*
